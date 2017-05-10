@@ -4,7 +4,6 @@
 *.war
 .idea
 .metadata
-/src/main/resources/*
 /bin/
 .classpath
 .project
