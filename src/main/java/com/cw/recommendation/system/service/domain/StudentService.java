@@ -1,4 +1,4 @@
-package com.cw.recommendation.system.service;
+package com.cw.recommendation.system.service.domain;
 
 import java.util.List;
 

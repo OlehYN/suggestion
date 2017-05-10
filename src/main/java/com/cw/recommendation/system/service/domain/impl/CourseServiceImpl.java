@@ -1,4 +1,4 @@
-package com.cw.recommendation.system.service.impl;
+package com.cw.recommendation.system.service.domain.impl;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.cw.recommendation.system.dao.CourseDao;
 import com.cw.recommendation.system.entity.Course;
-import com.cw.recommendation.system.service.CourseService;
+import com.cw.recommendation.system.service.domain.CourseService;
 
 @Service
 @Transactional

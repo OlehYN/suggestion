@@ -28,7 +28,7 @@ public class Subject {
 	private String name;
 
 	@Column(name = "credits", nullable = false)
-	private int credits;
+	private double credits;
 	
 	@Column(name = "year_of_study", nullable = false)
 	private int yearOfStudy;
@@ -58,11 +58,11 @@ public class Subject {
 		this.name = name;
 	}
 
-	public int getCredits() {
+	public double getCredits() {
 		return credits;
 	}
 
-	public void setCredits(int credits) {
+	public void setCredits(double credits) {
 		this.credits = credits;
 	}
 

@@ -1,4 +1,4 @@
-package com.cw.recommendation.system.service.impl;
+package com.cw.recommendation.system.service.domain.impl;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.cw.recommendation.system.dao.ModuleDao;
 import com.cw.recommendation.system.entity.Module;
-import com.cw.recommendation.system.service.ModuleService;
+import com.cw.recommendation.system.service.domain.ModuleService;
 
 @Service
 @Transactional
